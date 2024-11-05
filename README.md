@@ -1,13 +1,9 @@
 # Flutter dengan GetX
 
-<div align="center">
-
 ![Flutter](https://img.shields.io/badge/Flutter-3.3-blue)
 ![GetX](https://img.shields.io/badge/GetX-4.6-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
-</div>
 
 ---
 
