@@ -31,6 +31,12 @@ class HomeView extends StatelessWidget {
               },
               child: Text('Lihat Data Item'),
             ),
+            ElevatedButton(
+              onPressed: () {
+                Get.toNamed('/jenis-barang');
+              },
+              child: Text('Kelola Jenis Barang'),
+            ),
           ],
         ),
       ),

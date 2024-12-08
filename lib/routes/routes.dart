@@ -3,6 +3,7 @@ import '../views/login_view.dart';
 import '../views/home_view.dart';
 import '../views/profile_view.dart';
 import '../views/data_view.dart';
+import '../views/jenis_barang_view.dart';
 
 class AppRoutes {
   static final routes = [
@@ -10,5 +11,6 @@ class AppRoutes {
     GetPage(name: '/home', page: () => HomeView()), //Rute untuk halaman home
     GetPage(name: '/profile', page: () => ProfileView()), //Rute untuk halaman profile
     GetPage(name: '/data', page: () => DataView()), //Rute untuk halaman data item
+    GetPage(name: '/jenis-barang', page: () => JenisBarangView()),
   ];
 }

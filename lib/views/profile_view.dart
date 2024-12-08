@@ -21,6 +21,16 @@ class ProfileView extends StatelessWidget {
               },
               child: Text('Kembali'),
             ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                profileController.logout();
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.red,
+              ),
+              child: Text('Logout', style: TextStyle(color: Colors.white)),
+            ),
           ],
         ),
       ),
